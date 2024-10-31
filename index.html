@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  
+  <h2>hitungluaspersegi</h2>
+  <form>
+
+    <label>Nilai panjang</label>
+    <input type="text" id="nPJ">
+
+    <label>nilai lebar</label>
+    <input type="text" id="nLB">
+
+    <button type="button" onclick="hitungluas()" class="btnhitung">hitungluas</button>  
+
+  </form>
+
+  <script>
+    function hitungluas(){
+      let pj = document.getElementById("nPJ").value;
+      let lb = document.getElementById("nLB").value;
+
+      console.log("nilai dari panjang:"+ pj +"; nilai lebar:"+ lb);
+      
+    }
+
+  </script>
+</body>
+</html>
